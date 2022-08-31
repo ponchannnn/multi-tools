@@ -1,0 +1,13 @@
+{
+  "name": "QRcode Generator",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab","scripting", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click Me"
+  },
+  "author": "ponCHANNN"
+}
